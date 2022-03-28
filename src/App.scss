@@ -1,0 +1,72 @@
+@import "vars.scss";
+
+
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.App {
+  text-align: center;
+   
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.test-title{
+  padding: 200px 0 ;
+  background-color: $primary;
+  color: $white;
+}
+
+
+
+.btn{
+  
+  border-radius: 15px;
+  
+  outline: none;
+  border: none;
+  font-size: 24px;
+
+  &__primary{
+    background-color: $white !important;;
+    color: $primary;
+    transition: color .7s, background-color .7s ;
+    padding: 18px 40px;
+
+    &:hover{
+      background-color: $primary !important;
+      color: $white;
+    }
+  }
+  &__second{
+    background-color: $white !important;;
+    color: $primary;
+    transition: color .7s, background-color .7s ;
+    padding: 10px 20px;
+    margin-top: 10px;
+
+    &:hover{
+      background-color: $primary !important;
+      color: $white;
+    }
+  }
+
+  
+}
+
+.main{
+  margin-top: 40px;
+}
+
+
+
+
+

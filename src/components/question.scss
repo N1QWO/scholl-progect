@@ -1,0 +1,87 @@
+@import "../vars.scss";
+
+
+
+
+label {
+   margin-right: 15px;
+   line-height: 32px;
+ }
+
+.question-title{
+  color: rgba($primary,100%);
+}
+ 
+.question-button-next{
+  font-size: 18px;
+  
+}
+.question-title{
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+.question-button{
+  margin-right: 0px;
+  margin-top: 20px;
+  
+}
+.question-inputs{
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.text-ans{
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  margin: 10px auto 0;
+  width: 50%;
+}
+
+.test-input {
+  font-family: inherit;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid $primary;
+  outline: 0;
+  font-size: 20px;
+  color: $primary;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+
+  &::placeholder {
+    color: transparent;
+  }
+
+}
+ 
+ 
+.question-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  outline: none;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+
+  &:hover{
+    border:  2px solid $primary;
+  }
+}
+
+.question-input:checked {
+  border: 6px solid $primary;
+}
